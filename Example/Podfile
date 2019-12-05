@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LMJKIT_Example' do
+  pod 'LMJKIT', :path => '../'
+
+  target 'LMJKIT_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
