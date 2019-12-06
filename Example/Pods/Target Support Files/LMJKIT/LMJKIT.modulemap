@@ -1,0 +1,6 @@
+framework module LMJKIT {
+  umbrella header "LMJKIT-umbrella.h"
+
+  export *
+  module * { export * }
+}
