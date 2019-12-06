@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4827F503FF0200D0796AC58B /* Pods_LMJKIT_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AEA45F5F9254060DF38B81 /* Pods_LMJKIT_Tests.framework */; };
+		5E4DB72B239A51D400F00E90 /* LMJKIT.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B201716F6D45A22A677BBEB5 /* LMJKIT.podspec */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -58,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6896EC84A7669C35CFEC7770 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6896EC84A7669C35CFEC7770 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9176E4E880C64AAFAC84B65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9176E4E880C64AAFAC84B65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A3AEA45F5F9254060DF38B81 /* Pods_LMJKIT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMJKIT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B201716F6D45A22A677BBEB5 /* LMJKIT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LMJKIT.podspec; path = ../LMJKIT.podspec; sourceTree = "<group>"; };
+		B201716F6D45A22A677BBEB5 /* LMJKIT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LMJKIT.podspec; path = ../LMJKIT.podspec; sourceTree = "<group>"; };
 		BFABAB6C89508901FC827F47 /* Pods-LMJKIT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMJKIT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LMJKIT_Tests/Pods-LMJKIT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B5D5D4BF46A9BD777AF7FC /* Pods-LMJKIT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMJKIT_Example.debug.xcconfig"; path = "Target Support Files/Pods-LMJKIT_Example/Pods-LMJKIT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9DF0581F7552A854311F09 /* Pods-LMJKIT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMJKIT_Tests.release.xcconfig"; path = "Target Support Files/Pods-LMJKIT_Tests/Pods-LMJKIT_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +194,6 @@
 				BFABAB6C89508901FC827F47 /* Pods-LMJKIT_Tests.debug.xcconfig */,
 				CD9DF0581F7552A854311F09 /* Pods-LMJKIT_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				5E4DB72B239A51D400F00E90 /* LMJKIT.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
