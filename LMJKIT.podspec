@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lmj_521aiau@163.com/LMJKIT'
+  s.homepage         = 'https://github.com/deepExDriver/LMJKIT'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lmj_521aiau@163.com' => 'lmj_521aiau@163.com' }
-  s.source           = { :git => 'https://github.com/lmj_521aiau@163.com/LMJKIT.git', :tag => s.version.to_s }
+  s.author           = { 'deepExDriver' => 'deepExDriver' }
+  s.source           = { :git => 'https://github.com/deepExDriver/LMJKIT.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
