@@ -11,8 +11,8 @@
 		4C10FEED118F2CE7EB50E8CBFB50DC0D /* Pods-LMJKIT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A522C3AAEF641B25778F8DA49607FF51 /* Pods-LMJKIT_Tests-dummy.m */; };
 		4E6B8D8ABBD0E299AF3EE5A190E0E50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		52BD2D47672529A4EEE826E4DA3AF02D /* LMJKIT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E20F5556094047D17A017D952A5CA74 /* LMJKIT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E2EDB53239E1C8900D7A874 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EDB51239E1C8900D7A874 /* Data.m */; };
-		5E2EDB54239E1C8900D7A874 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2EDB52239E1C8900D7A874 /* Data.h */; };
+		5E36E4AE239F407900D973CA /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E36E4AC239F407900D973CA /* Data.h */; };
+		5E36E4AF239F407900D973CA /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E36E4AD239F407900D973CA /* Data.m */; };
 		6028E63F98329CBD69ADFDBEC8C11114 /* Pods-LMJKIT_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A95269EE172FC9B6BDD492736D694D /* Pods-LMJKIT_Example-dummy.m */; };
 		6B5D6E703BF63237BFF22C3385808326 /* Pods-LMJKIT_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 899EFBEAA20973471B03460CFDE0BC3F /* Pods-LMJKIT_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C94A1F63132EB6DC8D6A0870125F2A5F /* LMJKIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB2BADCC9C46635BBDFC18BD7549EB /* LMJKIT-dummy.m */; };
@@ -47,8 +47,8 @@
 		4BA3DCAB151063C33027D4C297EF7598 /* Pods-LMJKIT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMJKIT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		557872C5977F8A2C37284E7141DF55DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5E20F5556094047D17A017D952A5CA74 /* LMJKIT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMJKIT-umbrella.h"; sourceTree = "<group>"; };
-		5E2EDB51239E1C8900D7A874 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = LMJKIT/Data.m; sourceTree = "<group>"; };
-		5E2EDB52239E1C8900D7A874 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = LMJKIT/Data.h; sourceTree = "<group>"; };
+		5E36E4AC239F407900D973CA /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		5E36E4AD239F407900D973CA /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		628DA68D791AED2D645B9AA1EDAE9549 /* Pods-LMJKIT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMJKIT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		74A95269EE172FC9B6BDD492736D694D /* Pods-LMJKIT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMJKIT_Example-dummy.m"; sourceTree = "<group>"; };
 		74F9DE0ED55E32C34162CEDED0E84EE6 /* Pods-LMJKIT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMJKIT_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -142,6 +142,16 @@
 			path = "Example/Pods/Target Support Files/LMJKIT";
 			sourceTree = "<group>";
 		};
+		5E36E4AB239F407900D973CA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5E36E4AC239F407900D973CA /* Data.h */,
+				5E36E4AD239F407900D973CA /* Data.m */,
+			);
+			name = Data;
+			path = LMJKIT/Data;
+			sourceTree = "<group>";
+		};
 		8B492CF1D615C405CDA15A3D4655FDED /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,8 +217,7 @@
 		F3F35741C343A9444C07855A4A1CE375 /* LMJKIT */ = {
 			isa = PBXGroup;
 			children = (
-				5E2EDB52239E1C8900D7A874 /* Data.h */,
-				5E2EDB51239E1C8900D7A874 /* Data.m */,
+				5E36E4AB239F407900D973CA /* Data */,
 				4A500BE562A5545BA06E57F630D41D5C /* Pod */,
 				4BFAC17A6A5503C513C4E4C0C097237A /* Support Files */,
 			);
@@ -247,7 +256,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2EDB54239E1C8900D7A874 /* Data.h in Headers */,
+				5E36E4AE239F407900D973CA /* Data.h in Headers */,
 				52BD2D47672529A4EEE826E4DA3AF02D /* LMJKIT-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94A1F63132EB6DC8D6A0870125F2A5F /* LMJKIT-dummy.m in Sources */,
-				5E2EDB53239E1C8900D7A874 /* Data.m in Sources */,
+				5E36E4AF239F407900D973CA /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

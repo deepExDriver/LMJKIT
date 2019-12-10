@@ -9,13 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Data : NSObject{
-    NSMutableDictionary *DataDic;
+    NSMutableDictionary * DataDic;
 }
 
--(NSMutableDictionary *)Read;
--(void)WirteDic : (id )Wangluodic Key:(id )key;
--(void)InitPlist;
+- (NSMutableDictionary *)Read;
+- (void)WirteDic:(id)value Key:(id)key;
+- (void)InitPlist;
 - (void)removeDicForKey:(id)key;
-
 
 @end

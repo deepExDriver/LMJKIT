@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LMJKIT'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of LMJKIT.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LMJKIT', 'LMJKIT/*.{h,m}'
+  # s.source_files = 'LMJKIT', 'LMJKIT/*.{h,m}'
+  
+  s.subspec 'Data' do |data|
+  data.source_files = 'LMJKIT', 'LMJKIT/Data/*.{h,m}'
+  data.public_header_files = 'LMJKIT', 'LMJKIT/Data/*.h'
+  end
   
   # s.resource_bundles = {
   #   'LMJKIT' => ['LMJKIT/Assets/*.png']
